@@ -2,31 +2,7 @@
 let weiterLink = document.getElementById("spielStarten2");
 weiterLink.addEventListener('click', spielNeuStarten);
 
-function startevideo() {
-    // Das Video im Vollbildmodus anzeigen
-    let video = document.getElementById('video');
-    video.style.visibility = "visible";
-    // Sobald das Video beendet ist
-    video.addEventListener('ended', function() {
-        // Weiterleitung zur anderen Seite
-       window.open("auswahl.html", "_blank");
-    });
 
-    // Wenn der Nutzer das Video vorzeitig beendet
-    
-
-    // Video automatisch abspielen
-    video.play();
-
-    function stopVideo() {
-        // Video anhalten
-        video.pause();
-
-        // Weiterleitung zur anderen Seite
-       window.open("auswahl.html", "_blank");
-    }
-    video.addEventListener('click', stopVideo);
-}
 
 
 
@@ -126,7 +102,6 @@ localStorage.setItem("maxHandwerker", JSON.stringify(maxHandwerker));
 let runde = 1;
 localStorage.setItem("runde", JSON.stringify(runde));const video = document.getElementById('video');
 
-startevideo();
 
     // window.open("auswahl.html", "_blank");
   
