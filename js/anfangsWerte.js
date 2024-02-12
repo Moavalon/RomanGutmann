@@ -9,7 +9,7 @@ function startevideo() {
     // Sobald das Video beendet ist
     video.addEventListener('ended', function() {
         // Weiterleitung zur anderen Seite
-       window.open("html/auswahl.html", "_blank");
+       window.open("auswahl.html", "_blank");
     });
 
     // Wenn der Nutzer das Video vorzeitig beendet
@@ -23,7 +23,7 @@ function startevideo() {
         video.pause();
 
         // Weiterleitung zur anderen Seite
-       window.open("html/auswahl.html", "_blank");
+       window.open("auswahl.html", "_blank");
     }
     video.addEventListener('click', stopVideo);
 }
@@ -128,7 +128,7 @@ localStorage.setItem("runde", JSON.stringify(runde));const video = document.getE
 
 startevideo();
 
-    // window.open("html/auswahl.html", "_blank");
+    // window.open("auswahl.html", "_blank");
   
 
 }
