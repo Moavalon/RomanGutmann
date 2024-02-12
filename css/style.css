@@ -88,3 +88,22 @@ a:visited{
 #footer {
     height: 100px;
 }
+
+@media (max-width: 510px) {
+
+    .nav-link,
+    .navbar-brand,
+    .bigger {
+        font-size: 0.0rem;
+    }
+
+    h1 {
+        font-size: 24pt;
+    }
+
+    #erstesProjekt h1:hover {
+        color: red;
+        font-size: 32pt;
+    }
+
+}
