@@ -100,10 +100,10 @@ let maxHandwerker = 2;
 localStorage.setItem("maxHandwerker", JSON.stringify(maxHandwerker));
 
 let runde = 1;
-localStorage.setItem("runde", JSON.stringify(runde));const video = document.getElementById('video');
+localStorage.setItem("runde", JSON.stringify(runde));
 
 
-    // window.open("auswahl.html", "_blank");
+    window.open("auswahl.html", "_blank");
   
 
 }
