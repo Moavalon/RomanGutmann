@@ -3,11 +3,6 @@ let weiterLink = document.getElementById("spielStarten2");
 weiterLink.addEventListener('click', spielNeuStarten);
 
 
-
-
-
-
-
 function spielNeuStarten(){
     localStorage.clear();
     let goldBesitz = 100;
@@ -103,7 +98,7 @@ let runde = 1;
 localStorage.setItem("runde", JSON.stringify(runde));
 
 
-    window.open("auswahl.html", "_blank");
+    window.open("html/auswahl.html", "_blank");
   
 
 }
