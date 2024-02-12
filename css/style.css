@@ -106,4 +106,8 @@ a:visited{
         font-size: 32pt;
     }
 
+    .card{
+        max-width: 100%;
+    }
+
 }
