@@ -1,6 +1,4 @@
 
-let weiterButton = document.getElementById("spielStarten");
-weiterButton.addEventListener('click', spielNeuStarten); 
 let weiterLink = document.getElementById("spielStarten2");
 weiterLink.addEventListener('click', spielNeuStarten);
 
@@ -11,7 +9,7 @@ function startevideo() {
     // Sobald das Video beendet ist
     video.addEventListener('ended', function() {
         // Weiterleitung zur anderen Seite
-        window.location.href = "html/auswahl.html";
+       window.open("html/auswahl.html", "_blank");
     });
 
     // Wenn der Nutzer das Video vorzeitig beendet
@@ -25,7 +23,7 @@ function startevideo() {
         video.pause();
 
         // Weiterleitung zur anderen Seite
-        window.location.href = "html/auswahl.html";
+       window.open("html/auswahl.html", "_blank");
     }
     video.addEventListener('click', stopVideo);
 }
@@ -130,7 +128,7 @@ localStorage.setItem("runde", JSON.stringify(runde));const video = document.getE
 
 startevideo();
 
-    // window.location.href="html/auswahl.html";
+    // window.open("html/auswahl.html", "_blank");
   
 
 }
