@@ -13,7 +13,7 @@ h1 {
     font-weight: bolder;
 }
 
-span{
+span {
     font-size: larger;
 }
 
@@ -22,11 +22,11 @@ span{
 }
 
 .carousel-item {
-    height: 50vh;
+    height: 60vh;
 }
 
 .carousel-item img {
-    height: 225px;
+    height: 350px;
     width: 225px;
 }
 
@@ -52,12 +52,12 @@ span{
 
 }
 
-#ausbildung{
+#ausbildung {
     font-size: 20pt;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#ausbildung img{
+#ausbildung img {
     transform: scale(0.70);
 }
 
@@ -66,7 +66,7 @@ span{
     background-color: rgb(96, 214, 253);
 }
 
-#erstesProjekt h1:hover{
+#erstesProjekt h1:hover {
     color: red;
     font-size: 40pt;
 }
@@ -76,11 +76,11 @@ a:link {
     color: black;
 }
 
-a:visited{
+a:visited {
     color: black;
 }
 
-.bigger:hover{
+.bigger:hover {
     font-size: larger;
     transform: scale(1.25);
 }
