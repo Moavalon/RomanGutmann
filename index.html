@@ -195,16 +195,10 @@
     let currentIndex = 0;
     
     setInterval(() => {
-      // Entfernen Sie die aktive Klasse vom aktuellen Element
       navItems[currentIndex].classList.remove('active');
-    
-      // Aktualisieren Sie den Index
       currentIndex = (currentIndex + 1) % navItems.length;
-    
-      // Fügen Sie die aktive Klasse zum neuen Element hinzu
       navItems[currentIndex].classList.add('active');
     }, 1000);</script>
-
   <script src="js/anfangsWerte.js"></script>
 
 </body>
